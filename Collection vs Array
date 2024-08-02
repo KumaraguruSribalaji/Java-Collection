@@ -1,0 +1,17 @@
+Array	 and Collection
+1	Arrays are fixed in size	Collections are growable in size
+2	"With respect to memory, arrays are not recommand to use"	
+  "With respect to memory, Collections are  recommand to use"
+3	"With respect to performance, arrays are recommand to use"	
+  "With respect to performance, Collections are not recommand to use"
+4	"There is no under lying data structure so, readymade method is not possible"	
+  "There is readymade methods for data structures. Every collection method is implemented based on standard Data structure"
+5	Arrays are Homogeniuos	
+  Collections are Homogenious or Hetrogenious
+6	"Arrays can hold primitives, (int[], String[]) Arrays can hold objects.(obj[])"	
+  "Collections Can hold only Objects and not primitives"
+
+Collections - is a group of bjects
+
+Collection Framework 
+It defines several classes and interface which can be used a group of object as single entity. 
