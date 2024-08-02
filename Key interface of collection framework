@@ -36,8 +36,29 @@ Collection vs Collections
     2) It can be implemented by TreeSet.  (1.2 version)
 
   vi) Queue(I)     (1.5 version)
-    1) It is a child interface for Collection.
+    1) It is a child interface of Collection.
     2) If we want to represent a group of indivudal objects prior to processing then we should go for Queue.  (ex: FIFO concept) 
     3) Can be implement in two class 
         Priority Queue
         Blocking Queue - Has child classes (Linked blocking queue and Priority blocking Queue)
+
+  vii) Map(I) 
+    1) Map is not a child interface of Collection.
+    2) If we want to represent a group of indivudal object as key value pairs then should go for Map.
+    3)     HashMap        |     WeakHashMap      |       IdentityHashMap     |      Hashtable (Legacy verion 1.0)
+           LinkedHashMap  |                      |                           |      Dictionary
+                          |                      |                           |      Properties
+
+  viii) SortedMap
+    1) It is the Child interface of map.
+    2) If we want to represent a group of key value pairs according to some sorting order of key
+
+  ix) NavigableMap
+    1) It is a child interface of map.
+    2) It defines several utility method of navigation purpose.
+    3) Can be implemented by
+          TreeMap
+  
+
+
+    
