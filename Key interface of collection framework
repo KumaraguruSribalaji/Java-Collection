@@ -1,0 +1,43 @@
+Collection vs Collections
+  Collection is a interface. - Which can be used as a group of indivudal object as a single entity.
+  Collections is a utility class.  - Present in java.util.package  - to define several utility methods for collection object - like Soriting, Searching in array 
+
+/***********Collection, List, Set, SortedSet, NavigableSet, Queue - Meant for representing Group of INdivudal Object.******************/
+/***********If we want to represent a group of object as key value pairs, Then we should go for Map interface.*************************/
+
+9 Key interface of collection framework
+  i) Collection(I) - collection interface
+     1) If we want to represent a group of object as a single entity then we go for collection
+     2) Collection interface defines a most common methods which are applicable for any collection object
+     3) In general collection interface consider as a root interface of collection framework.
+      note:
+      There is no concrete class which implements collection framework directly.
+
+  ii) List(I) 
+    1) List is a child interface of collection.
+    2) If we want to represent a group of object as a single entity where duplicates are allowed and insertion order preserved then we should go for list.
+    3) Array list (1.2 version)
+       Linked list (1.2 version)
+       Vector (1.0 version) and Stack (1.0 version) 
+    4) Vector and Stack are Legacy version
+
+  iii) Set(I)
+    1) It is child interface of Collection.
+    2) If we want to represent a group of object as single entity where duplicates are not allowed and insertion order are not preserved then we should go for Set.
+    3) Hash set           (1.2 version)
+       LinkedHash set    (Child class of Hash set - 1.4 version)
+
+  iv) SortedSet(I)
+    1) It is a child interface of Set.
+    2) If we want to represent a group of object as a single entity where duplicates are not allowed but, all object should be insert according to some sorting order then we should go for SortedSet.
+
+  v) NavigableSet(I) 
+    1) It is a child interface for SortedSet. It defines several method for navigation purposes.  (1.6 version)
+    2) It can be implemented by TreeSet.  (1.2 version)
+
+  vi) Queue(I)     (1.5 version)
+    1) It is a child interface for Collection.
+    2) If we want to represent a group of indivudal objects prior to processing then we should go for Queue.  (ex: FIFO concept) 
+    3) Can be implement in two class 
+        Priority Queue
+        Blocking Queue - Has child classes (Linked blocking queue and Priority blocking Queue)
